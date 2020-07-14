@@ -30,6 +30,10 @@ public class KoodoLoginPage {
 	
 	@FindBy(id = "idtoken2_error-message")
 	public static WebElement Passvalerr;
+	
+	@FindBy(xpath = "//div[@class='notifications__notification']//div")
+	public static WebElement UserPwdErr;
+	
 		
 	public void OpenBrowser() throws IOException  {
 		FileInputStream fs = new FileInputStream("C:\\Practice\\Koodo.properties");
@@ -85,4 +89,7 @@ public class KoodoLoginPage {
 		return Passvalerr.getText();
 	}
 
+	public String UserPwdErr() {
+		return UserPwdErr.getText();
+	}
 }

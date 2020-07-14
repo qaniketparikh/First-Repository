@@ -9,5 +9,9 @@ public class KoodoDataFile {
 	public String WrongPassword = xl.getCellData("Sheet1", 1, 4);
 	public String EmailValerr = xl.getCellData("Sheet1", 1,5 );
 	public String PasswordvalErr = xl.getCellData("Sheet1", 1, 6);
+	public String WrongEmail = xl.getCellData("Sheet1", 1, 3);
+	public String Wrongemailandpwdval = xl.getCellData("Sheet1", 1, 7);
+	public String invalidemail = xl.getCellData("Sheet1", 1, 8);
 
 }
+ 

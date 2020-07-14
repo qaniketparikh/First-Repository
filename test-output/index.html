@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Niket Parikh\AppData\Local\Temp\testng-eclipse-312014194\testng-customsuite.xml</span>
+                    <span>C:\Users\Niket Parikh\AppData\Local\Temp\testng-eclipse-1521240086\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,21 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.KoodoLogin" hash-for-method="EmailValidation">EmailValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.KoodoLogin" hash-for-method="IncorrectEmailval">IncorrectEmailval</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.KoodoLogin" hash-for-method="Incorrectpassval">Incorrectpassval</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="tests.KoodoLogin" hash-for-method="InvalidEmailval">InvalidEmailval</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -137,6 +152,27 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="IncorrectEmailval">
+                  </a> <!-- IncorrectEmailval -->
+                  <span class="method-name">IncorrectEmailval</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Incorrectpassval">
+                  </a> <!-- Incorrectpassval -->
+                  <span class="method-name">Incorrectpassval</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidEmailval">
+                  </a> <!-- InvalidEmailval -->
+                  <span class="method-name">InvalidEmailval</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="PasswordValidation">
                   </a> <!-- PasswordValidation -->
                   <span class="method-name">PasswordValidation</span>
@@ -147,7 +183,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Niket Parikh\AppData\Local\Temp\testng-eclipse-312014194\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Niket Parikh\AppData\Local\Temp\testng-eclipse-1521240086\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -196,20 +232,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'PasswordValidation')
+data.setCell(0, 1, 'Incorrectpassval')
 data.setCell(0, 2, 'tests.KoodoLogin')
-data.setCell(0, 3, 573);
+data.setCell(0, 3, 2575);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'EmailValidation')
+data.setCell(1, 1, 'IncorrectEmailval')
 data.setCell(1, 2, 'tests.KoodoLogin')
-data.setCell(1, 3, 459);
+data.setCell(1, 3, 2494);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'PasswordValidation')
+data.setCell(2, 2, 'tests.KoodoLogin')
+data.setCell(2, 3, 622);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'EmailValidation')
+data.setCell(3, 2, 'tests.KoodoLogin')
+data.setCell(3, 3, 503);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'InvalidEmailval')
+data.setCell(4, 2, 'tests.KoodoLogin')
+data.setCell(4, 3, 194);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -242,23 +290,59 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">EmailValidation</span>
-                <span class="method-start">13630 ms</span>
+                <span class="method-start">17721 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">14091 ms</span>
+                <span class="method-start">18226 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">19478 ms</span>
+                <span class="method-start">22233 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">PasswordValidation</span>
-                <span class="method-start">39481 ms</span>
+                <span class="method-name">IncorrectEmailval</span>
+                <span class="method-start">35405 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">40056 ms</span>
+                <span class="method-start">37901 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">41934 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Incorrectpassval</span>
+                <span class="method-start">52828 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">55404 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">59036 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">InvalidEmailval</span>
+                <span class="method-start">69338 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">69535 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">73763 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">PasswordValidation</span>
+                <span class="method-start">87265 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">87888 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

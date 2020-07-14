@@ -5,9 +5,8 @@
     <classes>
       <class name="tests.KoodoLogin">
         <methods>
-          <include name="EmailValidation"/>
           <include name="afterMethod"/>
-          <include name="PasswordValidation"/>
+          <include name="Incorrectpassval"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- tests.KoodoLogin -->

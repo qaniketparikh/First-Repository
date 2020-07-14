@@ -48,9 +48,38 @@ public class KoodoLogin {
   public void PasswordValidation() {
 	  kl.EnterEmail(df.CorrectEmail);
 	  kl.ClickNext();
-	  
 	  Assert.assertEquals(df.PasswordvalErr, kl.PassValErr());
 	}
+  
+  @Test
+  public void IncorrectEmailval() {
+	  kl.EnterEmail(df.WrongEmail);
+	  kl.EnterPassword(df.WrongPassword);
+	  kl.ClickNext();
+	  Assert.assertEquals(df.Wrongemailandpwdval, kl.UserPwdErr());
+  }
+  
+  @Test
+  public void InvalidEmailval() {
+	  kl.EnterEmail(df.invalidemail);
+	  kl.EnterPassword("");
+	  
+	  Assert.assertEquals(df.EmailValerr, kl.EmailValerr());
+  }
+  
+  @Test
+  public void Incorrectpassval() {
+	  kl.EnterEmail(df.CorrectEmail);
+	  kl.EnterPassword(df.WrongPassword);
+	  kl.ClickNext();
+	  
+	  
+	  Assert.assertEquals(df.Wrongemailandpwdval, kl.UserPwdErr());
+  }
+  
+  
+  
+  
   
   
 

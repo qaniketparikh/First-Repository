@@ -1,33 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43806" started-at="2020-07-13T19:14:35Z" finished-at="2020-07-13T19:15:19Z">
+  <suite name="Default suite" duration-ms="92330" started-at="2020-07-14T16:53:48Z" finished-at="2020-07-14T16:55:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43806" started-at="2020-07-13T19:14:35Z" finished-at="2020-07-13T19:15:19Z">
+    <test name="Default test" duration-ms="92330" started-at="2020-07-14T16:53:48Z" finished-at="2020-07-14T16:55:20Z">
       <class name="tests.KoodoLogin">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.KoodoLogin@22f9e2]" name="beforeMethod" is-config="true" duration-ms="13630" started-at="2020-07-13T15:14:35Z" finished-at="2020-07-13T15:14:48Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.KoodoLogin@130745]" name="beforeMethod" is-config="true" duration-ms="17721" started-at="2020-07-14T12:53:48Z" finished-at="2020-07-14T12:54:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="EmailValidation()[pri:0, instance:tests.KoodoLogin@22f9e2]" name="EmailValidation" duration-ms="459" started-at="2020-07-13T15:14:48Z" finished-at="2020-07-13T15:14:49Z">
+        <test-method status="PASS" signature="EmailValidation()[pri:0, instance:tests.KoodoLogin@130745]" name="EmailValidation" duration-ms="503" started-at="2020-07-14T12:54:06Z" finished-at="2020-07-14T12:54:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmailValidation -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.KoodoLogin@22f9e2]" name="afterMethod" is-config="true" duration-ms="5387" started-at="2020-07-13T15:14:49Z" finished-at="2020-07-13T15:14:54Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.KoodoLogin@130745]" name="afterMethod" is-config="true" duration-ms="4007" started-at="2020-07-14T12:54:06Z" finished-at="2020-07-14T12:54:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.KoodoLogin@22f9e2]" name="beforeMethod" is-config="true" duration-ms="20003" started-at="2020-07-13T15:14:54Z" finished-at="2020-07-13T15:15:14Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.KoodoLogin@130745]" name="beforeMethod" is-config="true" duration-ms="13172" started-at="2020-07-14T12:54:10Z" finished-at="2020-07-14T12:54:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="PasswordValidation()[pri:0, instance:tests.KoodoLogin@22f9e2]" name="PasswordValidation" duration-ms="573" started-at="2020-07-13T15:15:14Z" finished-at="2020-07-13T15:15:15Z">
+        <test-method status="PASS" signature="IncorrectEmailval()[pri:0, instance:tests.KoodoLogin@130745]" name="IncorrectEmailval" duration-ms="2494" started-at="2020-07-14T12:54:23Z" finished-at="2020-07-14T12:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncorrectEmailval -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.KoodoLogin@130745]" name="afterMethod" is-config="true" duration-ms="4033" started-at="2020-07-14T12:54:26Z" finished-at="2020-07-14T12:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.KoodoLogin@130745]" name="beforeMethod" is-config="true" duration-ms="10894" started-at="2020-07-14T12:54:30Z" finished-at="2020-07-14T12:54:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Incorrectpassval()[pri:0, instance:tests.KoodoLogin@130745]" name="Incorrectpassval" duration-ms="2575" started-at="2020-07-14T12:54:41Z" finished-at="2020-07-14T12:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Incorrectpassval -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.KoodoLogin@130745]" name="afterMethod" is-config="true" duration-ms="3632" started-at="2020-07-14T12:54:43Z" finished-at="2020-07-14T12:54:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.KoodoLogin@130745]" name="beforeMethod" is-config="true" duration-ms="10302" started-at="2020-07-14T12:54:47Z" finished-at="2020-07-14T12:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="InvalidEmailval()[pri:0, instance:tests.KoodoLogin@130745]" name="InvalidEmailval" duration-ms="194" started-at="2020-07-14T12:54:57Z" finished-at="2020-07-14T12:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidEmailval -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.KoodoLogin@130745]" name="afterMethod" is-config="true" duration-ms="4228" started-at="2020-07-14T12:54:57Z" finished-at="2020-07-14T12:55:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.KoodoLogin@130745]" name="beforeMethod" is-config="true" duration-ms="13502" started-at="2020-07-14T12:55:02Z" finished-at="2020-07-14T12:55:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="PasswordValidation()[pri:0, instance:tests.KoodoLogin@130745]" name="PasswordValidation" duration-ms="622" started-at="2020-07-14T12:55:15Z" finished-at="2020-07-14T12:55:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PasswordValidation -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.KoodoLogin@22f9e2]" name="afterMethod" is-config="true" duration-ms="3727" started-at="2020-07-13T15:15:15Z" finished-at="2020-07-13T15:15:19Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.KoodoLogin@130745]" name="afterMethod" is-config="true" duration-ms="4420" started-at="2020-07-14T12:55:16Z" finished-at="2020-07-14T12:55:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
